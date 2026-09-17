@@ -1,0 +1,35 @@
+injector:
+  head_begin:
+  head_end: |
+    <link rel="stylesheet" href="https://npm.webcache.cn/katex@0.16.11/dist/katex.min.css">
+  body_begin:
+  body_end:
+  sidebar_begin:
+  sidebar_end:
+
+math:
+  enable: true
+  katex:
+    enable: true
+    autoRender: true
+  mathjax:
+    enable: false
+    options:
+      tex:
+        tags: "ams"
+        useLabelIds: true
+        inlineMath: [["$", "$"], ['\\(', '\\)']]
+        displayMath: [["$$", "$$"], ['\\[', '\\]']]
+        processEscapes: true
+        processEnvironments: true
+        autoload:
+          color: []
+          colorv2: ["color"]
+        packages:
+          "[+]": ["noerrors"]
+      options:
+        skipHtmlTags: ["script", "noscript", "style", "textarea", "pre", "code"]
+        ignoreHtmlClass: "tex2jax_ignore"
+        processHtmlClass: "tex2jax_process"
+      loader:
+        load: ["input/asciimath", "[tex]/noerrors"]
