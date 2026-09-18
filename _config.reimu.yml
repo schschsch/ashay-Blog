@@ -33,3 +33,6 @@ math:
         processHtmlClass: "tex2jax_process"
       loader:
         load: ["input/asciimath", "[tex]/noerrors"]
+
+# _config.reimu.yml
+avatar: "avatar.webp" # 对应 source/_data/avatar/avatar.webp
