@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "@reimujs/hexo-renderer-markdown-it-plus": "^1.2.4",
-    "hexo": "^7.0.0",
+    "hexo": "^8.1.2",
     "hexo-generator-archive": "^2.0.0",
     "hexo-generator-category": "^2.0.0",
     "hexo-generator-index": "^3.0.0",
