@@ -36,3 +36,12 @@ math:
 
 # _config.reimu.yml
 avatar: "avatar.webp" # 对应 source/_data/avatar/avatar.webp
+
+live2d:
+  enable: true
+  model: "hijiki" # 可选值：hijiki、shizuku、wanko、koharu、miku、z16、z16_2
+  width: 150
+  height: 150
+  position:
+    x: 0
+    y: 0
