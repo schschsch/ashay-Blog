@@ -5,6 +5,7 @@ tags:
     - 算子开发
     - AI Infra
     - GPU架构
+cover: /figs/Blog3.png
 ---
 
 # CUDA编程
